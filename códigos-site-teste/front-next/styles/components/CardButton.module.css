@@ -1,0 +1,65 @@
+.cardDel {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: 0.5s;
+    background-color: var(--red);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.cardPlus {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: 0.5s;
+    background-color: var(--white);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cardPlus:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: var(--white-dark);
+}
+
+.cardDel:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: var(--red-dark);
+}
+
+.boxCadastroDados{
+    width: 600px !important;
+    padding: 20px !important;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.50) !important;
+    border-radius: 15px !important;
+
+}
+
+.boxCadastroDados h2{
+    
+    color: white !important;
+}
+
+.boxCadastroDados div{
+    color: var(--white-dark) !important;
+}
+
+.boxCadastroDados button{
+    color: white !important;
+    font-size: 1.3rem !important;
+    transition: 0.8s;
+}
+
+.boxCadastroDados button:hover{
+    transform: translateY(-10px);
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--blue-background);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --white-dark: rgb(190, 190, 190);
+  --white-input: #8899A6;
+  --blue-background: #15202B;
+  --blue-box: #192734;
+  --blue-button: #17A2B8;
+  --blue-dark-button: #138394;
+  --red: #EE2E2E;
+  --red-dark:rgb(173, 32, 32);
+
+}

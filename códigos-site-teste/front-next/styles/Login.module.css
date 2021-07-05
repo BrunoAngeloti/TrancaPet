@@ -1,0 +1,94 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+
+}
+
+.loginMain {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  height: 470px;
+  width: 550px;
+  padding: 5rem;
+  background-color: var(--blue-box);
+  box-shadow: inset 5px 5px 18px #000000;
+}
+
+
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginInput {
+  background-color: var(--white-input);
+  outline: none;
+  width: 100%;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  padding-top: 1px;
+  padding-left: 20px;
+  font-size: 18px;
+  border: none;
+  box-shadow: inset 5px 5px 18px #000000;
+  color: var(--black);
+  border-radius: 20px;
+  resize: none;
+  margin-top: 2rem;
+  font-family: Roboto, sans-serif;
+
+
+}
+
+.loginInput::-webkit-input-placeholder{
+  color: var(--black);
+  font-family: Roboto, sans-serif;
+}
+
+.loginContainer h1 {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+  font-size: 3rem !important;
+  font-weight: 300;
+}
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue-button);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 15px #000000;
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.loginButton:hover{
+  background-color: var(--blue-dark-button);
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .loginMain{
+    width: 90%;
+    padding: 4rem;
+  }
+  .logo{
+    width: 70%;
+  }
+}
